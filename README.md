@@ -1,4 +1,4 @@
 # Computer-Graphics
 
-Name: Chase Henderson \n
-Student ID: 1946078
+Name: Chase Henderson |
+  Student ID: 1946078
