@@ -32,9 +32,9 @@ void renderPixel(int x, int y, int r)
     assert(x >= 0 && y >= 0 && x <= radius && y <= radius);
     image[x + r][y + r] = 1;
     // TODO:  light up the pixel's symmetric counterpart
-    image[y+ r][x + r] = 1;
-    image[x+r][r - y] = 1;
-    image[y+r][r - x] = 1;
+    image[y + r][x + r] = 1;
+    image[x + r][r - y] = 1;
+    image[y + r][r - x] = 1;
 }
 void renderPixel2(int x, int y, int r)
 {
